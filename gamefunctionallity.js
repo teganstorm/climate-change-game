@@ -419,16 +419,10 @@ function restart() {
 var gameover = false;
 function endgame() {
     gameover = true;
-    // did all the fish die?
-    // you lost
     var notification = document.getElementById("scorescreen");
     notification.innerHTML = "you recycled "+bottlessaved+" botles in "+time+" seconds";
-    // how many fish are still alive?
-    // leader board?
-    // input name?
-
-
-    // clear();
+    // leader board
+    storescore(time);
 
     // option to restart?
 }
