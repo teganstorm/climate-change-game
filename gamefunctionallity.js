@@ -1,6 +1,4 @@
 // By Tegan Friedenthal
-// This is my game
-
 
 // canvas stuff
 var canvas;
@@ -397,6 +395,7 @@ function restart() {
     clearInterval(addingbottles);
     clearInterval(speedingup);
 
+    gameover = false;
     time = 0;
     bottlessaved = 0;
     bottles.splice(0, bottlecount);
