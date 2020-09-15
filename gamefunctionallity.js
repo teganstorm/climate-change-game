@@ -1,3 +1,5 @@
+// By Tegan Friedenthal
+
 // canvas stuff
 var canvas;
 var context;
