@@ -1,4 +1,6 @@
 // By Tegan Friedenthal
+// This is my game
+
 
 // canvas stuff
 var canvas;
