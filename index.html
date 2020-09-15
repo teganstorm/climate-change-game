@@ -22,14 +22,21 @@
 
     </head>
     <body style="background-color: rgb(168, 236, 233);">
-        <button id="button"; onclick="start()";>START</button>
+        <button id="button"; onclick="start();">START</button>
         <canvas id="canvas"></canvas>
         <p id="timer">time: 0s</p>
         <p id="scorescreen"></p>
 
-        <script type="text/javascript" 
-            src="gamefunctionallity.js">
-        </script>
+        <script type="text/javascript" src="gamefunctionallity.js"></script>
+        <script type="text/javascript" src="database.js"></script>
+
+        <form>
+            <input type="text" id="input"/>
+            <button id="submitbutton" onclick="submitname();">enter</button>
+        </form>
+
+        <p id="formtext2">please enter your name:</p>
+
         <p id="p1">An educational game to raise awareness for climate change, by Tegan Storm Friedenthal</p>
         <p id="p2">I do not own any of the images used, all images found on Google © </p>
 

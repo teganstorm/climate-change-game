@@ -374,6 +374,7 @@ var mytimer;
 var addingbottles;
 var speedingup;
 function start() {
+
     mytimer = setInterval(updatetime, 1000);
     addingbottles = setInterval(addbottle, 2000);
     speedingup = setInterval(speedup, 20000);
@@ -396,6 +397,9 @@ function restart() {
     clearInterval(speedingup);
 
     gameover = false;
+    
+    // reset fish posistions
+
     time = 0;
     bottlessaved = 0;
     bottles.splice(0, bottlecount);
